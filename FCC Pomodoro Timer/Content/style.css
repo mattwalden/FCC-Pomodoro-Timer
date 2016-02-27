@@ -1,0 +1,43 @@
+﻿.timer-row{
+    height:40px;   
+}
+
+.timer-settings{
+    margin-bottom: 30px;
+}
+
+.timer-settings input[type=text] {
+    width: 100px;
+    height: 100px;
+    font: bold 20px Helvetica, sans-serif;
+    padding: 3px 0 0 0;
+   
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.btn-round{
+    border-radius: 50%;
+    font-size: 20px
+}
+#timer{
+ 
+ margin-bottom: 20px;   
+}
+
+#timer input[type=text]{
+width: 200px;
+    height: 200px;
+    font: bold 20px Helvetica, sans-serif;
+    padding: 3px 0 0 0;
+}
+
+body{
+    text-align: center; 
+}
+[type=text]{
+    text-align: center;
+}
+.progress-bar{
+    height:50px;
+}
