@@ -63,6 +63,11 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\nouislider.min.css" />
+    <Content Include="media\chewbacca.swf.mp3" />
+    <Content Include="media\crack_the_whip.mp3" />
+    <Content Include="media\the-price-is-right-losing-horn.mp3" />
+    <Content Include="media\the-simpsons-nelsons-haha.mp3" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -93,7 +98,9 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\nouislider.min.js" />
     <Content Include="Scripts\script.js" />
+    <Content Include="Scripts\wNumb.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

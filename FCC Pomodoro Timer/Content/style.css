@@ -7,8 +7,8 @@
 }
 
 .timer-settings input[type=text] {
-    width: 100px;
-    height: 100px;
+    width: 40px;
+    height: 35px;
     font: bold 20px Helvetica, sans-serif;
     padding: 3px 0 0 0;
    
@@ -18,26 +18,40 @@
 }
 .btn-round{
     border-radius: 50%;
-    font-size: 20px
+    font-size: 14px
 }
 #timer{
  
  margin-bottom: 20px;   
 }
 
-#timer input[type=text]{
+#timer-row input[type=text]{
 width: 200px;
-    height: 200px;
-    font: bold 20px Helvetica, sans-serif;
+    height: 100px;
+    font: bold 60px Helvetica, sans-serif;
     padding: 3px 0 0 0;
+    border:none;
 }
 
 body{
-    text-align: center; 
+    /*text-align: center;*/
 }
 [type=text]{
     text-align: center;
 }
 .progress-bar{
     height:50px;
+    -moz-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+ .progress{
+   width:500px;
+ }
+  
+
+
+#controls{
+    margin-bottom:20px;
 }
